@@ -28,34 +28,42 @@
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
         <ul class="nav navbar-nav navbar-right">
           <li data-menuanchor="about"><a href="#about">About</a></li>
-          <li data-menuanchor="portfolio" class="dropdown"><a href="#portfolio">Portfolio</a></li>
+          <li data-menuanchor="portfolio" class="dropdown">
+            <a href="#portfolio" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Portfolio <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#portfolio/battlecats">Battle Cats</a></li>
+              <li><a href="#portfolio/gitd">GiTD</a></li>
+              <li><a href="#portfolio/jumble">Jumble</a></li>
+              <li><a href="#portfolio/cattleships">Cattleships</a></li>
+              <li><a href="#portfolio/tictactoe">Ultimate TicTacToe</a></li>
+              <li><a href="#portfolio/chemhelper">ChemHelper</a></li>
+            </ul>
+          </li>
           <li data-menuanchor="contact"><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </div>
   </nav>
-  <div class="container">
-    <div id="fullpage">
-      <div class="section" id="landing">
-        <h1 class="text-center">Landing Page</h1>
-      </div>
-      <div class="section" id="about">
-        <h1 class="text-center">About Me</h1>
-      </div>
-      <div class="section" id="portfolio">
-        <h1 class="text-center">Portfolio</h1>
-        <div class="slide"><h1>Battle Cats</h1></div>
-        <div class="slide"><h1>GiTD</h1></div>
-        <div class="slide"><h1>Jumble</h1></div>
-        <div class="slide"><h1>Cattleships</h1></div>
-        <div class="slide"><h1>Ultimate TicTacToe</h1></div>
-        <div class="slide"><h1>ChemHelper</h1></div>
-      </div>
-      <div class="section" id="contact">
-        <h1 class="text-center">Contact Me</h1>
-      </div>
+  <div id="fullpage">
+    <div class="section">
+      <h1 class="text-center">Landing Page</h1>
+    </div>
+    <div class="section">
+      <h1 class="text-center">About Me</h1>
+    </div>
+    <div class="section">
+      <h1 class="text-center">Portfolio</h1>
+      <div class="slide"></div>
+      <div class="slide" data-anchor="battlecats"><h1>Battle Cats</h1></div>
+      <div class="slide" data-anchor="gitd"><h1>GiTD</h1></div>
+      <div class="slide" data-anchor="jumble"><h1>Jumble</h1></div>
+      <div class="slide" data-anchor="cattleships"><h1>Cattleships</h1></div>
+      <div class="slide" data-anchor="tictactoe"><h1>Ultimate TicTacToe</h1></div>
+      <div class="slide" data-anchor="chemhelper"><h1>ChemHelper</h1></div>
+    </div>
+    <div class="section">
+      <h1 class="text-center">Contact Me</h1>
     </div>
   </div>
-  <h1>Hello world</h1>
 </body>
 </html>
