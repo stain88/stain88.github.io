@@ -159,6 +159,22 @@
         <div class="col-xs-2"></div>
         <div class="col-xs-4">
           <h2 class="text-center">Or send me a message:</h2>
+          <form method="POST" action="mail.php" class="form-horizontal">
+            <fieldset>
+              <div class="form-group">
+                <input type="text" name="name" placeholder="Please provide your name" required="required" class="form-control">
+              </div>
+              <div class="form-group">
+                <input type="email" name="email" placeholder="Please provide your email" required="required" class="form-control">
+              </div>
+              <div class="form-group">
+                <textarea name="message" placeholder="What is your message?" required="required" class="form-control"></textarea>
+              </div>
+              <div class="form-group">
+                <button class="btn btn-primary btn-block">Send Message</button>
+              </div>
+            </fieldset>
+          </form>
         </div>
         <div class="col-xs-1"></div>
       </div>
