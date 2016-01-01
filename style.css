@@ -1,10 +1,14 @@
-.port {
-  height: 150px;
+.landing-jumb {
+  background-color: transparent;
+}
+
+.profile {
   display: block;
   margin: 0 auto;
 }
 
-.profile {
+.port {
+  height: 150px;
   display: block;
   margin: 0 auto;
 }
