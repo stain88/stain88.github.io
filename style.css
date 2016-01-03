@@ -2,6 +2,11 @@
   background-color: transparent;
 }
 
+.landing {
+  background-image: url("images/background.png");
+  background-size: cover;
+}
+
 .profile {
   display: block;
   margin: 0 auto;
